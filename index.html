@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+
+  <script src="https://kit.fontawesome.com/a2d50947b5.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="layout.css">
+
+  
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="Message">
+
+     <h2>Welcome To Libiome</h2> 
+
+     <h3>Get Started Creating Your Own Space</h3>
+
+     <p>Already have an account?, Click Login</p>
+
+    </div>
+
+    <div class="user-signup">
+
+     <form>
+
+       <div class="nav">
+
+         <div class="signup-nav">
+
+           <button class="signup-button">Signup</button>
+
+         </div>
+
+         <div class="login-nav">
+
+           <button class="login-button">Login</button>
+
+         </div>
+
+       </div>
+
+       
+
+       <div class="name-field">
+
+         <div class="Fname">
+
+           <label for="name">First name</label>
+
+           <input type="text">
+
+         </div>
+
+         <div class="Lname">
+
+           <label for="name">Last name</label>
+
+           <input type="text">
+
+         </div>
+
+         </div>
+
+         <div class="email-field">
+
+           <label for="email">Email Address</label>
+
+           <div class="email">
+
+             <input type="text" class="email-el">
+
+             <div class="valid">
+
+               <i class="fa-regular fa-circle-xmark"></i>
+
+             </div>
+
+           </div>
+
+           <p class="report"></p>
+
+           <div class="Password-requirement">
+
+             <h3>Password Requirements</h3>
+
+             <div class="requirement one">
+
+               <div class="check1">
+
+                 <i class="fa-regular fa-circle-xmark"></i>
+
+               </div>
+
+               <p> Must be at least 8 characters</p>
+
+             </div>
+
+             
+
+             <div class="requirement two">
+
+               <div class="check2">
+
+                 <i class="fa-regular fa-circle-xmark"></i>
+
+               </div>
+
+               <p> Must be same for both fields</p>
+
+             </div>
+
+           </div>
+
+       </div>
+
+       <div class="password-field">
+
+         <label for="password">Password</label>
+
+         <div class="password">
+
+           <input class="user-password" type="password">
+
+           <div>
+
+             <button class="password-visible"><i class="fa-regular fa-eye fa-1x"></i></button>
+
+           </div>
+
+         </div>
+
+        </div>
+
+        <div class="password-field second">
+
+          <label for="confirm password">Confirm Password</label>
+
+          <div class="password">
+
+            <input class="confirm-password" type="password">
+
+            <div>
+
+              <button class="confirm-visible"><i class="fa-regular fa-eye fa-1x"></i></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        
+
+          <div class="inner-form">
+
+            <div class="category">
+
+              <input class="displayChoice" type="text" value="Select Study Category" disabled>
+
+                <div>
+
+                  <button class="icon-button">
+
+                    <i class="fa-solid fa-angle-down fa-1x">
+
+                    </i>
+
+                  </button>
+
+                  <!--
+
+                  <button class="icon-button2">
+
+                    <i class="fa-solid fa-angle-up fa-1x">
+
+                    </i>
+
+                  </button> 
+
+                  -->
+
+                </div>
+
+            </div>
+
+            <div class="category-selector">
+
+              <input class="student" type="button" value="Student">
+
+              <input class="teacher" type="button" value="Teacher">
+
+              <input class="researcher" type="button" value="Researcher">
+
+            </div>
+
+          </div>
+
+          <div class="gender">
+
+            <div class="male-gender">
+
+              <input type="radio" id="male">
+
+              <label for="male-gender">Male</label>
+
+            </div>
+
+            <div class="female-gender">
+
+              <input type="radio" id="female">
+
+              <label for="male-gender">Female</label>
+
+            </div>
+
+          </div>
+
+         <button type="submit" class="Signup">Signup Now</button>
+
+     </form>
+
+    </div>
+
+    <div class="user-login">
+
+      <form>
+
+        <div class="nav">
+
+          <div class="signup-nav">
+
+            <button class="signup-button-login">Signup</button>
+
+          </div>
+
+          <div class="login-nav">
+
+            <button class="login-button-login">Login</button>
+
+          </div>
+
+        </div>
+
+        <div class="email-field">
+
+          <label for="email">Email Address</label>
+
+          <div class="email">
+
+            <input type="text">
+
+            <div>
+
+              <i class="fa-regular fa-circle-xmark"></i>
+
+              <i class="fa-regular fa-circle-check"></i>
+
+            </div>
+
+          </div>
+
+          <div class="password-field">
+
+            <label for="password">Password</label>
+
+            <div class="password">
+
+              <input type="password">
+
+              <div>
+
+                <button class="password-visible"><i class="fa-regular fa-eye fa-1x"></i></button>
+
+                <button class="invisible"><i class="fa-regular fa-eye-slash fa-1x"></i></button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="forgot">
+
+            <div class="remember-me">
+
+              <input type="checkbox">
+
+              <label for="remember me">remember me</label>
+
+            </div>
+
+            <button>Forgot password</button>
+
+          </div>
+
+          <button class="Login">Login To Your Account</button>
+
+      </form>
+
+      </div>
+
+  </div>
+
+  <script src="FormInputValidation.js"></script>
+
+</body>
+
+</html>
